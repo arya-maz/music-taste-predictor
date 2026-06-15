@@ -4,13 +4,13 @@ ORDER,ARTIST,ALBUM,YEAR,TRACKS,RUNTIME_MIN,AVG_TRACK_LENGTH,GENRE_1,GENRE_2,GENR
 3,Ethel Cain,Preacher's Daughter,2022,13,75,5.77,Alternative Pop,Dream Pop,Ethereal Wave,"Alternative Pop, Dream Pop, Ethereal Wave",78
 4,FKA twigs,EUSEXUA,2025,11,42,3.82,Alternative Pop,Glitch Pop,Alternative R&B,"Alternative Pop, Glitch Pop, Alternative R&B",69
 5,Team Sleep,Team Sleep,2005,15,53,3.53,Art Rock,Shoegaze,Neo-Psychedelia,"Art Rock, Shoegaze, Neo-Psychedelia",65
-6,Slipknot,Slipknot,1999,15,60,4.0,Nu Metal,Alternative Metal,Industrial Metal,"Nu Metal, Alternative Metal, Industrial Metal",65
+6,Slipknot,Slipknot,1999,15,60,4,Nu Metal,Alternative Metal,Industrial Metal,"Nu Metal, Alternative Metal, Industrial Metal",65
 7,The Weeknd,Hurry Up Tomorrow,2025,22,84,3.82,Alternative R&B,Synthpop,Contemporary R&B,"Alternative R&B, Synthpop, Contemporary R&B",82
 8,Lorde,Melodrama,2017,11,41,3.73,Art Pop,Alternative Pop,Singer-Songwriter,"Art Pop, Alternative Pop, Singer-Songwriter",78
 9,Lorde,Pure Heroine,2013,10,37,3.7,Singer-Songwriter,Alternative Pop,Synthpop,"Singer-Songwriter, Alternative Pop, Synthpop",68
 10,"Larry June, 2 Chainz, The Alchemist",Life is Beautiful,2025,11,36,3.27,Rap,Jazz-Rap,Traditional Hip-Hop,"Rap, Jazz-Rap, Traditional Hip-Hop",72
 11,Imogen Heap,Speak for Yourself,2005,12,49,4.08,Art Pop,Contemporary Pop,Ethereal Wave,"Art Pop, Contemporary Pop, Ethereal Wave",80
-12,070 Shake,Petrichor,2024,13,39,3.0,Art Pop,Darkwave,Neo-Psychedelia,"Art Pop, Darkwave, Neo-Psychedelia",78
+12,070 Shake,Petrichor,2024,13,39,3,Art Pop,Darkwave,Neo-Psychedelia,"Art Pop, Darkwave, Neo-Psychedelia",78
 13,Spiritbox,Eternal Blue,2021,12,43,3.58,Alternative Metal,Metalcore,Ethereal Wave,"Alternative Metal, Metalcore, Ethereal Wave",92
 14,Paramore,Riot!,2007,11,38,3.45,Pop-Punk,Alternative Rock,Punk,"Pop-Punk, Alternative Rock, Punk",81
 15,Crosses,"Goodnight, God Bless, I Love U, Delete.",2023,15,49,3.27,Darkwave,Synthpop,Electronica,"Darkwave, Synthpop, Electronica",68
@@ -34,7 +34,7 @@ ORDER,ARTIST,ALBUM,YEAR,TRACKS,RUNTIME_MIN,AVG_TRACK_LENGTH,GENRE_1,GENRE_2,GENR
 33,beabadoobee,Beatopia,2022,14,45,3.21,Indie Pop,Indie Rock,Bedroom Pop,"Indie Pop, Indie Rock, Bedroom Pop",68
 34,Kiana Lede,Cut Ties,2024,11,29,2.64,Contemporary R&B,R&B,Contemporary Pop,"Contemporary R&B, R&B, Contemporary Pop",63
 35,Kali Uchis,ORQUIDEAS,2024,14,44,3.14,Contemporary R&B,Latin Pop,Dance-Pop,"Contemporary R&B, Latin Pop, Dance-Pop",78
-36,Slowdive,Souvlaki,1993,10,40,4.0,Shoegaze,Dream Pop,Neo-Psychedelia,"Shoegaze, Dream Pop, Neo-Psychedelia",74
+36,Slowdive,Souvlaki,1993,10,40,4,Shoegaze,Dream Pop,Neo-Psychedelia,"Shoegaze, Dream Pop, Neo-Psychedelia",74
 37,Tate McRae,So Close To What,2025,15,42,2.8,Contemporary Pop,Dance-Pop,Electropop,"Contemporary Pop, Dance-Pop, Electropop",60
 38,A Perfect Circle,Thirteenth Step,2003,12,50,4.17,Alternative Rock,Art Rock,Progressive Rock,"Alternative Rock, Art Rock, Progressive Rock",82
 39,Evanescence,The Open Door,2006,13,54,4.15,Alternative Metal,Goth Metal,Symphonic Rock,"Alternative Metal, Goth Metal, Symphonic Rock",74
@@ -47,7 +47,7 @@ ORDER,ARTIST,ALBUM,YEAR,TRACKS,RUNTIME_MIN,AVG_TRACK_LENGTH,GENRE_1,GENRE_2,GENR
 46,Radiohead,Kid A,2000,11,47,4.27,Art Rock,Electronica,Ambient,"Art Rock, Electronica, Ambient",72
 47,System of a Down,Steal This Album!,2002,16,43,2.69,Alternative Metal,Nu Metal,Avant-Garde Metal,"Alternative Metal, Nu Metal, Avant-Garde Metal",62
 48,Palms,Palms,2013,6,46,7.67,Post-Rock,Art Rock,Dream Pop,"Post-Rock, Art Rock, Dream Pop",79
-49,The Strokes,The New Abnormal,2020,9,45,5.0,Indie Rock,New Wave,Post-Punk Revival,"Indie Rock, New Wave, Post-Punk Revival",78
+49,The Strokes,The New Abnormal,2020,9,45,5,Indie Rock,New Wave,Post-Punk Revival,"Indie Rock, New Wave, Post-Punk Revival",78
 50,Spiritbox,Tsunami Sea,2025,11,43,3.91,Alternative Metal,Metalcore,Djent,"Alternative Metal, Metalcore, Djent",89
 51,Lady Gaga,MAYHEM,2025,14,53,3.79,Dance-Pop,Electronica,Synthpop,"Dance-Pop, Electronica, Synthpop",48
 52,Portishead,Dummy,1994,10,45,4.5,Trip-Hop,Trance,Jazz,"Trip-Hop, Trance, Jazz",72
@@ -81,11 +81,11 @@ ORDER,ARTIST,ALBUM,YEAR,TRACKS,RUNTIME_MIN,AVG_TRACK_LENGTH,GENRE_1,GENRE_2,GENR
 80,Beach House,Teen Dream,2010,10,48,4.8,Dream Pop,Indie Pop,Neo-Psychedelia,"Dream Pop, Indie Pop, Neo-Psychedelia",75
 81,Rainbow Kitten Surprise,"How To: Friend, Love, Freefall",2018,13,36,2.77,Indie Rock,Indie Pop,Alternative Pop,"Indie Rock, Indie Pop, Alternative Pop",65
 82,Malcolm Todd,Sweet Boy,2024,16,45,2.81,Alternative Pop,Contemporary Pop,Alternative R&B,"Alternative Pop, Contemporary Pop, Alternative R&B",68
-83,Queens of the Stone Age,Songs for the Deaf,2002,15,60,4.0,Alternative Rock,Hard Rock,Pop-Rock,"Alternative Rock, Hard Rock, Pop-Rock",71
+83,Queens of the Stone Age,Songs for the Deaf,2002,15,60,4,Alternative Rock,Hard Rock,Pop-Rock,"Alternative Rock, Hard Rock, Pop-Rock",71
 84,Katy Perry,Teenage Dream,2010,12,46,3.83,Pop,Contemporary Pop,Electropop,"Pop, Contemporary Pop, Electropop",74
 85,Malcolm Todd,Malcolm Todd,2025,14,37,2.64,Alternative Pop,Contemporary Pop,Alternative R&B,"Alternative Pop, Contemporary Pop, Alternative R&B",70
 86,Artemas,pretty,2024,13,30,2.31,Alternative R&B,Alternative Pop,Darkwave,"Alternative R&B, Alternative Pop, Darkwave",72
-87,Radiohead,The Bends,1995,12,48,4.0,Alternative Rock,Art Rock,Progressive Rock,"Alternative Rock, Art Rock, Progressive Rock",76
+87,Radiohead,The Bends,1995,12,48,4,Alternative Rock,Art Rock,Progressive Rock,"Alternative Rock, Art Rock, Progressive Rock",76
 88,Foushee,time machine,2021,9,29,3.22,Alternative R&B,Neo-Soul,R&B,"Alternative R&B, Neo-Soul, R&B",76
 89,Marina and the Diamonds,Electra Heart,2012,12,46,3.83,Electropop,Dance-Pop,Alternative Pop,"Electropop, Dance-Pop, Alternative Pop",84
 90,Clairo,Sling,2021,12,44,3.67,Singer-Songwriter,Alternative Pop,Soft Rock,"Singer-Songwriter, Alternative Pop, Soft Rock",60
@@ -104,22 +104,22 @@ ORDER,ARTIST,ALBUM,YEAR,TRACKS,RUNTIME_MIN,AVG_TRACK_LENGTH,GENRE_1,GENRE_2,GENR
 103,NxWorries,Yes Lawd!,2016,19,48,2.53,Neo-Soul,Contemporary R&B,Alternative R&B,"Neo-Soul, Contemporary R&B, Alternative R&B",72
 104,NxWorries,WHY LAWD?,2024,19,44,2.32,Neo-Soul,Contemporary R&B,Alternative Pop,"Neo-Soul, Contemporary R&B, Alternative Pop",71
 105,Charli XCX,Number 1 Angel,2017,10,37,3.7,Alternative Pop,Dance-Pop,Electropop,"Alternative Pop, Dance-Pop, Electropop",78
-106,"Flume, JPEGMAFIA",We Live In A Society,2025,4,16,4.0,Experimental Hip-Hop,Industrial Hip-Hop,Ambient,"Experimental Hip-Hop, Industrial Hip-Hop, Ambient",50
+106,"Flume, JPEGMAFIA",We Live In A Society,2025,4,16,4,Experimental Hip-Hop,Industrial Hip-Hop,Ambient,"Experimental Hip-Hop, Industrial Hip-Hop, Ambient",50
 107,Halsey,hopeless fountain kingdom,2017,13,38,2.92,Contemporary Pop,Alternative R&B,Electropop,"Contemporary Pop, Alternative R&B, Electropop",77
 108,Chappell Roan,The Rise and Fall of a Midwest Princess,2023,14,49,3.5,Contemporary Pop,Dance-Pop,Electropop,"Contemporary Pop, Dance-Pop, Electropop",70
 109,Amy Winehouse,Back to Black,2006,11,34,3.09,Pop-Soul,R&B,Blues,"Pop-Soul, R&B, Blues",62
 110,Juice WRLD,Fighting Demons,2021,18,55,3.06,Pop-Rap,Emo,Contemporary Hip-Hop,"Pop-Rap, Emo, Contemporary Hip-Hop",58
-111,Juice WRLD,The Party Never Ends,2024,18,54,3.0,Pop-Rap,Emo,Contemporary Hip-Hop,"Pop-Rap, Emo, Contemporary Hip-Hop",36
+111,Juice WRLD,The Party Never Ends,2024,18,54,3,Pop-Rap,Emo,Contemporary Hip-Hop,"Pop-Rap, Emo, Contemporary Hip-Hop",36
 112,Spiritbox,Spiritbox,2017,7,29,4.14,Progressive Metal,Alternative Metal,Djent,"Progressive Metal, Alternative Metal, Djent",78
 113,Spiritbox,Rotoscope,2022,3,10,3.33,Alternative Metal,Hardcore,Industrial Metal,"Alternative Metal, Hardcore, Industrial Metal",78
 114,Spiritbox,The Fear of Fear,2023,6,25,4.17,Alternative Metal,Metalcore,Ethereal Wave,"Alternative Metal, Metalcore, Ethereal Wave",80
 115,"Snoop Dogg, Dr. Dre",Missionary,2024,16,46,2.88,West Coast Hip-Hop,Pop-Rap,Boom Bap,"West Coast Hip-Hop, Pop-Rap, Boom Bap",52
 116,Taylor Swift,Speak Now,2010,14,67,4.79,Pop-Rock,Singer-Songwriter,Country,"Pop-Rock, Singer-Songwriter, Country",70
-117,Weiland,You Can't Climb the Mountain in N.Y.,2025,4,12,3.0,Synthpop,New Wave,Electropop,"Synthpop, New Wave, Electropop",70
+117,Weiland,You Can't Climb the Mountain in N.Y.,2025,4,12,3,Synthpop,New Wave,Electropop,"Synthpop, New Wave, Electropop",70
 118,The Cure,Songs of a Lost World,2024,8,49,6.12,Post-Rock,Art Rock,Dream Pop,"Post-Rock, Art Rock, Dream Pop",77
 119,Halsey,Manic,2020,16,47,2.94,Contemporary Pop,Alternative Pop,Electropop,"Contemporary Pop, Alternative Pop, Electropop",76
 120,Miley Cyrus,Plastic Hearts,2020,12,38,3.17,Pop-Rock,Synthpop,New Wave,"Pop-Rock, Synthpop, New Wave",75
-121,Miley Cyrus,Something Beautiful,2025,13,52,4.0,Pop-Rock,Dance-Pop,Neo-Psychedelia,"Pop-Rock, Dance-Pop, Neo-Psychedelia",71
+121,Miley Cyrus,Something Beautiful,2025,13,52,4,Pop-Rock,Dance-Pop,Neo-Psychedelia,"Pop-Rock, Dance-Pop, Neo-Psychedelia",71
 122,Childish Gambino,Camp,2011,13,56,4.31,Pop-Rap,Alternative Hip-Hop,Contemporary R&B,"Pop-Rap, Alternative Hip-Hop, Contemporary R&B",22
 123,Fiona Apple,Fetch the Bolt Cutters,2020,13,51,3.92,Art Pop,Singer-Songwriter,Piano Rock,"Art Pop, Singer-Songwriter, Piano Rock",50
 124,Linkin Park,Minutes to Midnight,2007,12,43,3.58,Alternative Rock,Pop-Rock,Pop,"Alternative Rock, Pop-Rock, Pop",59
@@ -137,32 +137,32 @@ ORDER,ARTIST,ALBUM,YEAR,TRACKS,RUNTIME_MIN,AVG_TRACK_LENGTH,GENRE_1,GENRE_2,GENR
 136,Knocked Loose,You Won't Go Before You're Supposed To,2024,10,27,2.7,Metalcore,Contemporary Metal,Hard Rock,"Metalcore, Contemporary Metal, Hard Rock",60
 137,Radiohead,Pablo Honey,1993,12,42,3.5,Alternative Rock,Grunge,Pop-Rock,"Alternative Rock, Grunge, Pop-Rock",66
 138,Radiohead,Amnesiac,2001,11,43,3.91,Art Rock,Electronica,Post-Rock,"Art Rock, Electronica, Post-Rock",60
-139,Radiohead,Hail To The Thief,2003,14,56,4.0,Art Rock,Experimental Rock,Pop-Rock,"Art Rock, Experimental Rock, Pop-Rock",40
+139,Radiohead,Hail To The Thief,2003,14,56,4,Art Rock,Experimental Rock,Pop-Rock,"Art Rock, Experimental Rock, Pop-Rock",40
 140,Major Lazer,Peace is the Mission,2015,9,32,3.56,Electronica,Dance-Pop,Pop-Rap,"Electronica, Dance-Pop, Pop-Rap",65
-141,Twenty One Pilots,Trench,2018,14,56,4.0,Alternative Rock,Alternative Pop,Indie Rock,"Alternative Rock, Alternative Pop, Indie Rock",70
+141,Twenty One Pilots,Trench,2018,14,56,4,Alternative Rock,Alternative Pop,Indie Rock,"Alternative Rock, Alternative Pop, Indie Rock",70
 142,Mannequin Pussy,Romantic,2016,11,17,1.55,Indie Rock,Noise Rock,Alternative Metal,"Indie Rock, Noise Rock, Alternative Metal",76
-143,Benson Boone,American Heart,2025,10,30,3.0,Contemporary Pop,Pop,Dance-Pop,"Contemporary Pop, Pop, Dance-Pop",32
+143,Benson Boone,American Heart,2025,10,30,3,Contemporary Pop,Pop,Dance-Pop,"Contemporary Pop, Pop, Dance-Pop",32
 144,Lorde,Solar Power,2021,12,43,3.58,Folk-Pop,Singer-Songwriter,Indie Pop,"Folk-Pop, Singer-Songwriter, Indie Pop",50
 145,Lorde,Virgin,2025,11,34,3.09,Alternative Pop,Singer-Songwriter,Electropop,"Alternative Pop, Singer-Songwriter, Electropop",70
 146,ROLE MODEL,Kansas Anymore,2024,12,41,3.42,Country-Pop,Indie Pop,Singer-Songwriter,"Country-Pop, Indie Pop, Singer-Songwriter",29
 147,Phoebe Bridgers,Punisher,2020,11,40,3.64,Indie Pop,Singer-Songwriter,Indie Rock,"Indie Pop, Singer-Songwriter, Indie Rock",78
-148,Phoebe Bridgers,Stranger in the Alps,2017,11,44,4.0,Indie Folk,Singer-Songwriter,Indie Pop,"Indie Folk, Singer-Songwriter, Indie Pop",82
+148,Phoebe Bridgers,Stranger in the Alps,2017,11,44,4,Indie Folk,Singer-Songwriter,Indie Pop,"Indie Folk, Singer-Songwriter, Indie Pop",82
 149,Paramore,Re: This Is Why,2023,12,47,3.92,Pop-Rock,Contemporary Pop,Post-Punk Revival,"Pop-Rock, Contemporary Pop, Post-Punk Revival",69
-150,Clipse,Lord Willin',2002,15,60,4.0,Gangsta Rap,Southern Hip-Hop,Rap,"Gangsta Rap, Southern Hip-Hop, Rap",70
-151,Mannequin Pussy,I Got Heaven,2024,10,30,3.0,Indie Rock,Punk Rock,Alternative Rock,"Indie Rock, Punk Rock, Alternative Rock",71
+150,Clipse,Lord Willin',2002,15,60,4,Gangsta Rap,Southern Hip-Hop,Rap,"Gangsta Rap, Southern Hip-Hop, Rap",70
+151,Mannequin Pussy,I Got Heaven,2024,10,30,3,Indie Rock,Punk Rock,Alternative Rock,"Indie Rock, Punk Rock, Alternative Rock",71
 152,Taylor Swift,Red,2012,16,65,4.06,Pop-Rock,Country-Pop,Electropop,"Pop-Rock, Country-Pop, Electropop",67
 153,Twenty One Pilots,Clancy,2024,13,47,3.62,Alternative Pop,Indie Rock,Pop-Rap,"Alternative Pop, Indie Rock, Pop-Rap",76
 154,Crystal Castles,Crystal Castles,2008,16,52,3.25,Electronica,Synthpop,Ambient,"Electronica, Synthpop, Ambient",59
 155,Mannequin Pussy,Patience,2019,10,25,2.5,Indie Rock,Punk Rock,Alternative Rock,"Indie Rock, Punk Rock, Alternative Rock",74
 156,Crystal Castles,Crystal Castles (II),2010,14,52,3.71,Electropop,Synthpop,New Wave,"Electropop, Synthpop, New Wave",70
-157,Justice,Cross,2007,12,48,4.0,Electronica,House,Dance-Pop,"Electronica, House, Dance-Pop",77
-158,JID,GDLU (Preluxe),2025,4,16,4.0,Rap,Contemporary Hip-Hop,Southern Hip-Hop,"Rap, Contemporary Hip-Hop, Southern Hip-Hop",75
+157,Justice,Cross,2007,12,48,4,Electronica,House,Dance-Pop,"Electronica, House, Dance-Pop",77
+158,JID,GDLU (Preluxe),2025,4,16,4,Rap,Contemporary Hip-Hop,Southern Hip-Hop,"Rap, Contemporary Hip-Hop, Southern Hip-Hop",75
 159,Justice,Hyperdrama,2024,13,49,3.77,Disco,House,Synthpop,"Disco, House, Synthpop",69
 160,Parannoul,After the Magic,2023,10,59,5.9,Shoegaze,Indie Rock,Noise Pop,"Shoegaze, Indie Rock, Noise Pop",50
 161,Paramore,After Laughter,2017,12,42,3.5,Pop-Rock,New Wave,Synthpop,"Pop-Rock, New Wave, Synthpop",70
 162,Beyonce,Dangerously in Love,2003,15,61,4.07,R&B,Pop-Soul,Dance-Pop,"R&B, Pop-Soul, Dance-Pop",63
-163,Oklou,Galore,2020,11,33,3.0,Bedroom Pop,Alternative Pop,Ambient,"Bedroom Pop, Alternative Pop, Ambient",70
-164,Nas,God's Son,2002,14,56,4.0,East Coast Hip-Hop,Rap,Conscious Hip-Hop,"East Coast Hip-Hop, Rap, Conscious Hip-Hop",77
+163,Oklou,Galore,2020,11,33,3,Bedroom Pop,Alternative Pop,Ambient,"Bedroom Pop, Alternative Pop, Ambient",70
+164,Nas,God's Son,2002,14,56,4,East Coast Hip-Hop,Rap,Conscious Hip-Hop,"East Coast Hip-Hop, Rap, Conscious Hip-Hop",77
 165,Nas,Street's Disciple,2004,25,87,3.48,East Coast Hip-Hop,Rap,Conscious Hip-Hop,"East Coast Hip-Hop, Rap, Conscious Hip-Hop",66
 166,underscores,Wallsocket,2023,12,54,4.5,Electropop,Glitch Pop,Industrial,"Electropop, Glitch Pop, Industrial",68
 167,Nas,Hip Hop is Dead,2006,16,60,3.75,Conscious Hip-Hop,East Coast Hip-Hop,Boom Bap,"Conscious Hip-Hop, East Coast Hip-Hop, Boom Bap",78
@@ -192,7 +192,7 @@ ORDER,ARTIST,ALBUM,YEAR,TRACKS,RUNTIME_MIN,AVG_TRACK_LENGTH,GENRE_1,GENRE_2,GENR
 191,LUCKI,Alternative Trap,2013,13,45,3.46,Alternative Hip-Hop,Trap,Cloud Rap,"Alternative Hip-Hop, Trap, Cloud Rap",72
 192,"Freddie Gibbs, The Alchemist",Alfredo 2,2025,14,47,3.36,Jazz-Rap,Gangsta Rap,Hip-Hop,"Jazz-Rap, Gangsta Rap, Hip-Hop",77
 193,Hanumankind,Monsoon Season,2025,12,39,3.25,Pop-Rap,Experimental Hip-Hop,Boom Bap,"Pop-Rap, Experimental Hip-Hop, Boom Bap",42
-194,LUCKI,Days B4 III,2019,15,30,2.0,Cloud Rap,Trap,Plugg,"Cloud Rap, Trap, Plugg",75
+194,LUCKI,Days B4 III,2019,15,30,2,Cloud Rap,Trap,Plugg,"Cloud Rap, Trap, Plugg",75
 195,Joni Mitchell,Blue,1971,10,36,3.6,Singer-Songwriter,Folk,Folk-Pop,"Singer-Songwriter, Folk, Folk-Pop",72
 196,Kali Uchis,Isolation,2018,15,46,3.07,Neo-Soul,Contemporary R&B,R&B,"Neo-Soul, Contemporary R&B, R&B",78
 197,Alicia Keys,The Diary of Alicia Keys,2003,15,57,3.8,R&B,Neo-Soul,Pop,"R&B, Neo-Soul, Pop",70
@@ -208,7 +208,7 @@ ORDER,ARTIST,ALBUM,YEAR,TRACKS,RUNTIME_MIN,AVG_TRACK_LENGTH,GENRE_1,GENRE_2,GENR
 207,Crosses,PERMANENT.RADIATION,2022,6,22,3.67,Electronica,Darkwave,Synthpop,"Electronica, Darkwave, Synthpop",56
 208,Quadeca,"Vanisher, Horizon Scraper",2025,14,69,4.93,Art Pop,Singer-Songwriter,Folktronica,"Art Pop, Singer-Songwriter, Folktronica",52
 209,Gunna,The Last Wun,2025,25,68,2.72,Contemporary Hip-Hop,Southern Hip-Hop,Contemporary R&B,"Contemporary Hip-Hop, Southern Hip-Hop, Contemporary R&B",25
-210,Yeat,DANGEROUS SUMMER,2025,11,33,3.0,Pop-Rap,Rage,Trap,"Pop-Rap, Rage, Trap",75
+210,Yeat,DANGEROUS SUMMER,2025,11,33,3,Pop-Rap,Rage,Trap,"Pop-Rap, Rage, Trap",75
 211,Split Chain,motionblur,2025,11,35,3.18,Alternative Metal,Shoegaze,Post-Hardcore,"Alternative Metal, Shoegaze, Post-Hardcore",75
 212,Alvvays,Blue Rev,2022,14,38,2.71,Dream Pop,Shoegaze,Alternative Rock,"Dream Pop, Shoegaze, Alternative Rock",70
 213,Ethel Cain,"Willoughby Tucker, I'll Always Love You",2025,10,73,7.3,Alternative Pop,Ethereal Wave,Singer-Songwriter,"Alternative Pop, Ethereal Wave, Singer-Songwriter",77
@@ -228,7 +228,7 @@ ORDER,ARTIST,ALBUM,YEAR,TRACKS,RUNTIME_MIN,AVG_TRACK_LENGTH,GENRE_1,GENRE_2,GENR
 227,Fleshwater,2000: In Search of the Endless Sky,2025,10,37,3.7,Post-Hardcore,Shoegaze,Alternative Metal,"Post-Hardcore, Shoegaze, Alternative Metal",70
 228,Slipknot,Vol. 3: (The Subliminal Verses),2004,14,60,4.29,Alternative Metal,Groove Metal,Alternative Rock,"Alternative Metal, Groove Metal, Alternative Rock",80
 229,Blood Orange,Essex Honey,2025,14,46,3.29,Alternative R&B,Alternative Pop,Art Pop,"Alternative R&B, Alternative Pop, Art Pop",50
-230,Honey Revenge,Retrovision,2023,12,36,3.0,Pop,Pop-Rock,Pop-Punk,"Pop, Pop-Rock, Pop-Punk",69
+230,Honey Revenge,Retrovision,2023,12,36,3,Pop,Pop-Rock,Pop-Punk,"Pop, Pop-Rock, Pop-Punk",69
 231,Cocteau Twins,Treasure,1984,10,41,4.1,Ethereal Wave,Dream Pop,Goth Rock,"Ethereal Wave, Dream Pop, Goth Rock",77
 232,Adele,25,2015,11,48,4.36,Pop-Soul,Singer-Songwriter,Blues,"Pop-Soul, Singer-Songwriter, Blues",69
 233,Candy Claws,Ceres & Calypso in the Deep Time,2013,12,44,3.67,Dream Pop,Neo-Psychedelia,Noise Pop,"Dream Pop, Neo-Psychedelia, Noise Pop",76
@@ -245,12 +245,12 @@ ORDER,ARTIST,ALBUM,YEAR,TRACKS,RUNTIME_MIN,AVG_TRACK_LENGTH,GENRE_1,GENRE_2,GENR
 244,Magdalena Bay,Mercurial World,2021,14,46,3.29,Synthpop,Ethereal Wave,Dance-Pop,"Synthpop, Ethereal Wave, Dance-Pop",76
 245,Cigarettes After Sex,Cigarettes After Sex,2017,10,47,4.7,Dream Pop,Indie Pop,Indie Rock,"Dream Pop, Indie Pop, Indie Rock",45
 246,Maximum Love,Apollo,2024,11,37,3.36,Electronic,Trance,Alternative Pop,"Electronic, Trance, Alternative Pop",60
-247,Flyleaf,Flyleaf,2005,11,33,3.0,Alternative Rock,Punk,Post-Grunge,"Alternative Rock, Punk, Post-Grunge",79
+247,Flyleaf,Flyleaf,2005,11,33,3,Alternative Rock,Punk,Post-Grunge,"Alternative Rock, Punk, Post-Grunge",79
 248,Doja Cat,Vie,2025,15,49,3.27,Dance-Pop,Disco,Pop-Rap,"Dance-Pop, Disco, Pop-Rap",70
 249,Young Thug,UY SCUTI,2025,21,77,3.67,Trap,Southern Hip-Hop,Pop-Rap,"Trap, Southern Hip-Hop, Pop-Rap",48
 250,Slipknot,All Hope Is Gone,2008,12,57,4.75,Alternative Metal,Groove Metal,Nu Metal,"Alternative Metal, Groove Metal, Nu Metal",73
 251,Dijon,Absolutely,2021,12,31,2.58,Alternative R&B,Neo-Soul,R&B,"Alternative R&B, Neo-Soul, R&B",75
-252,SZA,Z,2014,10,40,4.0,Alternative Pop,Contemporary R&B,Neo-Soul,"Alternative Pop, Contemporary R&B, Neo-Soul",76
+252,SZA,Z,2014,10,40,4,Alternative Pop,Contemporary R&B,Neo-Soul,"Alternative Pop, Contemporary R&B, Neo-Soul",76
 253,Deftones,Covers,2011,11,47,4.27,Alternative Rock,Alternative Metal,Rock,"Alternative Rock, Alternative Metal, Rock",70
 254,Pantera,Cowboys From Hell,1990,12,57,4.75,Thrash Metal,Groove Metal,Heavy Metal,"Thrash Metal, Groove Metal, Heavy Metal",73
 255,Geese,Getting Killed,2025,11,45,4.09,Indie Rock,Art Rock,Alternative Rock,"Indie Rock, Art Rock, Alternative Rock",58
@@ -259,14 +259,14 @@ ORDER,ARTIST,ALBUM,YEAR,TRACKS,RUNTIME_MIN,AVG_TRACK_LENGTH,GENRE_1,GENRE_2,GENR
 258,EsDeeKid,Rebel,2025,11,20,1.82,UK Rap,Jerk,Pop-Rap,"UK Rap, Jerk, Pop-Rap",55
 259,Taylor Swift,The Life of a Showgirl,2025,12,41,3.42,Pop,Alternative Pop,Singer-Songwriter,"Pop, Alternative Pop, Singer-Songwriter",45
 260,Taylor Swift,folklore,2020,16,63,3.94,Folk,Singer-Songwriter,Indie Folk,"Folk, Singer-Songwriter, Indie Folk",78
-261,Taylor Swift,evermore,2020,15,60,4.0,Folk-Pop,Singer-Songwriter,Indie Pop,"Folk-Pop, Singer-Songwriter, Indie Pop",70
-262,Beach House,Bloom,2012,10,60,6.0,Dream Pop,Indie Pop,Ethereal Wave,"Dream Pop, Indie Pop, Ethereal Wave",75
+261,Taylor Swift,evermore,2020,15,60,4,Folk-Pop,Singer-Songwriter,Indie Pop,"Folk-Pop, Singer-Songwriter, Indie Pop",70
+262,Beach House,Bloom,2012,10,60,6,Dream Pop,Indie Pop,Ethereal Wave,"Dream Pop, Indie Pop, Ethereal Wave",75
 263,Architects,All Our Gods Have Abandoned Us,2016,11,46,4.18,Metalcore,Progressive Metal,Alternative Metal,"Metalcore, Progressive Metal, Alternative Metal",78
 264,Benny the Butcher,The Plugs I Met,2019,7,24,3.43,Gangsta Rap,East Coast Hip-Hop,Boom Bap,"Gangsta Rap, East Coast Hip-Hop, Boom Bap",78
 265,Wunderhorse,Cub,2022,11,37,3.36,Alternative Rock,Indie Rock,Post-Grunge,"Alternative Rock, Indie Rock, Post-Grunge",75
 266,Porcupine Tree,In Absentia,2002,12,68,5.67,Progressive Rock,Art Rock,Alternative Rock,"Progressive Rock, Art Rock, Alternative Rock",76
 267,PinkPantheress,Fancy Some More?,2025,22,72,3.27,Alternative Pop,Dance-Pop,EDM,"Alternative Pop, Dance-Pop, EDM",63
-268,Wunderhorse,Midas,2024,10,40,4.0,Alternative Rock,Alternative Pop,Indie Rock,"Alternative Rock, Alternative Pop, Indie Rock",78
+268,Wunderhorse,Midas,2024,10,40,4,Alternative Rock,Alternative Pop,Indie Rock,"Alternative Rock, Alternative Pop, Indie Rock",78
 269,Not For Radio,Melt,2025,10,42,4.2,Alternative Pop,Dream Pop,Indie Pop,"Alternative Pop, Dream Pop, Indie Pop",78
 270,Nourished By Time,The Passionate Ones,2025,12,45,3.75,Alternative R&B,Neo-Soul,Bedroom Pop,"Alternative R&B, Neo-Soul, Bedroom Pop",71
 271,BIA,FOR CERTAIN,2020,8,21,2.62,Hip-Hop,Trap,East Coast Hip-Hop,"Hip-Hop, Trap, East Coast Hip-Hop",61
@@ -284,21 +284,21 @@ ORDER,ARTIST,ALBUM,YEAR,TRACKS,RUNTIME_MIN,AVG_TRACK_LENGTH,GENRE_1,GENRE_2,GENR
 283,Mariah the Scientist,HEARTS SOLD SEPARATELY,2025,10,35,3.5,Contemporary R&B,Neo-Soul,Alternative R&B,"Contemporary R&B, Neo-Soul, Alternative R&B",78
 284,Tory Lanez,I Told You,2016,14,78,5.57,Pop-Rap,Contemporary R&B,Trap-Soul,"Pop-Rap, Contemporary R&B, Trap-Soul",54
 285,Common,Be,2005,11,42,3.82,Hip-Hop,Rap,Neo-Soul,"Hip-Hop, Rap, Neo-Soul",70
-286,Björk,Debut,1993,11,48,4.36,Art Pop,Singer-Songwriter,Folk-Pop,"Art Pop, Singer-Songwriter, Folk-Pop",72
-287,BNYX,LOADING...,2025,6,18,3.0,Contemporary Hip-Hop,Trap,Alternative R&B,"Contemporary Hip-Hop, Trap, Alternative R&B",60
+286,Bjork,Debut,1993,11,48,4.36,Art Pop,Singer-Songwriter,Folk-Pop,"Art Pop, Singer-Songwriter, Folk-Pop",72
+287,BNYX,LOADING...,2025,6,18,3,Contemporary Hip-Hop,Trap,Alternative R&B,"Contemporary Hip-Hop, Trap, Alternative R&B",60
 288,MASS OF THE FERMENTING DREGS,No New World,2018,8,26,3.25,Alternative Rock,Indie Rock,Post-Punk Revival,"Alternative Rock, Indie Rock, Post-Punk Revival",71
-289,Björk,Post,1995,11,46,4.18,Art Pop,Singer-Songwriter,Trip-Hop,"Art Pop, Singer-Songwriter, Trip-Hop",73
+289,Bjork,Post,1995,11,46,4.18,Art Pop,Singer-Songwriter,Trip-Hop,"Art Pop, Singer-Songwriter, Trip-Hop",73
 290,Ex:Re,Ex:Re,2018,10,47,4.7,Singer-Songwriter,Alternative Pop,Ambient Pop,"Singer-Songwriter, Alternative Pop, Ambient Pop",79
 291,Ty Dolla $ign,TYCOON,2025,15,41,2.73,Contemporary R&B,Pop-Rap,West Coast Hip-Hop,"Contemporary R&B, Pop-Rap, West Coast Hip-Hop",55
 292,Armani White,There's A Ghost In My House,2025,11,30,2.73,Pop-Rap,Hip-Hop,Contemporary Hip-Hop,"Pop-Rap, Hip-Hop, Contemporary Hip-Hop",46
 293,Saba,C0FFEE!,2025,9,16,1.78,Alternative Hip-Hop,Experimental Hip-Hop,Alternative R&B,"Alternative Hip-Hop, Experimental Hip-Hop, Alternative R&B",50
 294,Hayley Williams,Petals For Armor,2020,15,55,3.67,Singer-Songwriter,Dance-Pop,Indie Pop,"Singer-Songwriter, Dance-Pop, Indie Pop",70
-295,Hayley Williams,FLOWERS for VASES / descansos,2021,14,42,3.0,Singer-Songwriter,Indie Folk,Indie Pop,"Singer-Songwriter, Indie Folk, Indie Pop",79
+295,Hayley Williams,FLOWERS for VASES / descansos,2021,14,42,3,Singer-Songwriter,Indie Folk,Indie Pop,"Singer-Songwriter, Indie Folk, Indie Pop",79
 296,Turnstile,NEVER ENOUGH,2025,14,45,3.21,Alternative Rock,Post-Hardcore,Dream Pop,"Alternative Rock, Post-Hardcore, Dream Pop",70
 297,Ravyn Lenae,Bird's Eye,2024,11,36,3.27,Contemporary R&B,Neo-Soul,Alternative Pop,"Contemporary R&B, Neo-Soul, Alternative Pop",76
 298,Ravyn Lenae,Hypnos,2022,16,53,3.31,Neo-Soul,Contemporary R&B,Dream Pop,"Neo-Soul, Contemporary R&B, Dream Pop",60
 299,Daniel Caesar,Son of Spergy,2025,12,51,4.25,Contemporary R&B,Neo-Soul,Singer-Songwriter,"Contemporary R&B, Neo-Soul, Singer-Songwriter",70
-300,Rosalía,LUX,2025,15,49,3.27,Art Pop,Classical,Singer-Songwriter,"Art Pop, Classical, Singer-Songwriter",66
+300,Rosalia,LUX,2025,15,49,3.27,Art Pop,Classical,Singer-Songwriter,"Art Pop, Classical, Singer-Songwriter",66
 301,Broadcast,The Noise Made By People,2000,12,45,3.75,Indietronica,Alternative Pop,Neo-Psychedelia,"Indietronica, Alternative Pop, Neo-Psychedelia",71
 302,Saya Gray,SAYA,2025,10,39,3.9,Art Pop,Indietronica,Singer-Songwriter,"Art Pop, Indietronica, Singer-Songwriter",76
 303,Depeche Mode,Violator,1990,9,46,5.11,Electronica,Darkwave,Synthpop,"Electronica, Darkwave, Synthpop",79
@@ -330,12 +330,12 @@ ORDER,ARTIST,ALBUM,YEAR,TRACKS,RUNTIME_MIN,AVG_TRACK_LENGTH,GENRE_1,GENRE_2,GENR
 329,Lil Baby,The Leaks,2025,15,41,2.73,Southern Hip-Hop,Trap,Pop-Rap,"Southern Hip-Hop, Trap, Pop-Rap",60
 330,MAVI,The Pilot,2025,10,24,2.4,Hip-Hop,Jazz-Rap,Pop-Rap,"Hip-Hop, Jazz-Rap, Pop-Rap",78
 331,Imagine Dragons,Night Visions,2012,11,43,3.91,Alternative Pop,Pop-Rock,Alternative Rock,"Alternative Pop, Pop-Rock, Alternative Rock",48
-332,Between the Buried and Me,Colors,2007,8,64,8.0,Progressive Metalcore,Avant-Garde Metal,Alternative Metal,"Progressive Metalcore, Avant-Garde Metal, Alternative Metal",77
+332,Between the Buried and Me,Colors,2007,8,64,8,Progressive Metalcore,Avant-Garde Metal,Alternative Metal,"Progressive Metalcore, Avant-Garde Metal, Alternative Metal",77
 333,Throbbing Gristle,20 Jazz Funk Greats,1979,11,41,3.73,Ambient,Electronic,Industrial,"Ambient, Electronic, Industrial",50
-334,Loving,If I Am Only My Thoughts,2020,11,33,3.0,Bedroom Pop,Indie Pop,Neo-Psychedelia,"Bedroom Pop, Indie Pop, Neo-Psychedelia",60
+334,Loving,If I Am Only My Thoughts,2020,11,33,3,Bedroom Pop,Indie Pop,Neo-Psychedelia,"Bedroom Pop, Indie Pop, Neo-Psychedelia",60
 335,Olivia Dean,The Art Of Loving,2025,12,34,2.83,Contemporary R&B,Alternative Pop,Pop-Soul,"Contemporary R&B, Alternative Pop, Pop-Soul",78
 336,Injury Reserve,By The Time I Get to Phoenix,2021,11,41,3.73,Experimental Hip-Hop,Glitch Pop,Industrial Hip-Hop,"Experimental Hip-Hop, Glitch Pop, Industrial Hip-Hop",38
-337,Jane Remover,♡,2025,6,26,4.33,Alternative Pop,Glitch Pop,Shoegaze,"Alternative Pop, Glitch Pop, Shoegaze",62
+337,Jane Remover,heart,2025,6,26,4.33,Alternative Pop,Glitch Pop,Shoegaze,"Alternative Pop, Glitch Pop, Shoegaze",62
 338,billy woods,GOLLIWOG,2025,18,52,2.89,Abstract Hip-Hop,Drumless Hip-Hop,Horrorcore,"Abstract Hip-Hop, Drumless Hip-Hop, Horrorcore",69
 339,21 Savage,WHAT HAPPENED TO THE STREETS?,2025,14,47,3.36,Trap,Southern Hip-Hop,Contemporary Hip-Hop,"Trap, Southern Hip-Hop, Contemporary Hip-Hop",50
 340,BIGBABYGUCCI,And When I'm Alone,2025,19,47,2.47,Pop-Rap,Contemporary Hip-Hop,Southern Hip-Hop,"Pop-Rap, Contemporary Hip-Hop, Southern Hip-Hop",70
@@ -345,7 +345,7 @@ ORDER,ARTIST,ALBUM,YEAR,TRACKS,RUNTIME_MIN,AVG_TRACK_LENGTH,GENRE_1,GENRE_2,GENR
 344,At the Drive-In,Relationship of Command,2000,13,53,4.08,Post-Hardcore,Shoegaze,Emo,"Post-Hardcore, Shoegaze, Emo",73
 345,Falling in Reverse,The Drug In Me Is You,2011,11,45,4.09,Metalcore,Pop-Punk,Rap-Rock,"Metalcore, Pop-Punk, Rap-Rock",29
 346,Metallica,Ride the Lightning,1984,8,47,5.88,Thrash Metal,Groove Metal,Heavy Metal,"Thrash Metal, Groove Metal, Heavy Metal",63
-347,Kamggarn,Kamggarn,2021,9,36,4.0,Progressive Rock,Alternative Rock,Psychedelic Rock,"Progressive Rock, Alternative Rock, Psychedelic Rock",70
+347,Kamggarn,Kamggarn,2021,9,36,4,Progressive Rock,Alternative Rock,Psychedelic Rock,"Progressive Rock, Alternative Rock, Psychedelic Rock",70
 348,Conway the Machine,You Can't Kill God With Bullets,2025,18,60,3.33,East Coast Hip-Hop,Gangsta Rap,Boom Bap,"East Coast Hip-Hop, Gangsta Rap, Boom Bap",80
 349,Deafheaven,Lonely People With Power,2025,12,62,5.17,Blackgaze,Post-Black Metal,Shoegaze,"Blackgaze, Post-Black Metal, Shoegaze",79
 350,Spiritualized,Ladies and gentlemen we are floating in space,1997,12,70,5.83,Space Rock,Art Rock,Dream Pop,"Space Rock, Art Rock, Dream Pop",77
