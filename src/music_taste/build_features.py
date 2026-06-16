@@ -13,7 +13,7 @@ def main():
     if not INPUT_PATH.exists():
         raise FileNotFoundError(f"Could not find input CSV at: {INPUT_PATH}")
 
-    df = pd.read_csv(INPUT_PATH)
+    df = pd.read_csv(INPUT_PATH).loc[:, "ARTIST":]
     df_features = add_features(df)
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
