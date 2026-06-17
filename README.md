@@ -49,7 +49,7 @@ The error report helps identify:
 - Albums with the largest prediction errors
 - Cases where the model overpredicts or underpredicts scores
 - Differences in performance across low, mid, and high score ranges
-- Whether future tuning changes actually improve the model
+- Whether specific tuning changes actually significantly improve the model or not
 
 This made the project more practical because it gave me a clearer way to inspect model behavior instead of relying only on summary metrics. Since predicted scores will eventually be used to rank recommendation candidates, understanding when the model is reliable is an important part of the recommendation pipeline.
 
@@ -67,14 +67,69 @@ After comparing the new error reports, I reverted the model back to the original
 
 This experiment was still useful because it showed that model tuning should be evaluated carefully. A more complex training setup is not automatically better if the resulting predictions are less stable or less useful.
 
+### 7. AOTY Dataset Expansion
+
+After building the original model around the 2025 listening dataset, I expanded the project by exporting my all-time Album of the Year ratings (albumoftheyear.org, aoty.org). This gave the project a much larger dataset that better represents my long-term music taste across more albums, artists, eras, and rating ranges. I did this with the objective of using the specific, detailed, and precise data collection from my smaller, 365-column dataset, with my extensive all-time data of nearly 1200 albums for a sharper prediction algorithm.
+
+The AOTY export included:
+
+- Artist
+- Album title
+- Release year
+- Format
+- Personal score
+- Date rated
+
+I decided to neglect the date rated column as it has virtually zero impact on this experiment, removing it from the cleaned modeling dataset. I also kept the original artist field intact instead of adding complicated multi-artist parsing, since there were only a small number of multi-artist cases and overengineering that step could create unnecessary errors. I was originally considering splitting artist names at '&' or ',' but this would have resuted in names of singular artists such as "Tyler, The Creator" to become split, causing errors.
+
+This created a larger AOTY-based ratings dataset that could be compared against the smaller but cleaner 2025 dataset.
+
+### 8. Last.fm Metadata Enrichment
+
+The AOTY export was useful because it provided many more ratings, but it lacked the album-level descriptive features that made the original 2025 dataset valuable. Since AOTY does not have an API, I used Last.fm as a source for certain album attributes.
+
+The enrichment script uses the Last.fm API to add:
+
+- Genre 1
+- Genre 2
+- Genre 3
+- Number of tracks
+- Runtime
+
+The genre tags required additional filtering because Last.fm tags can include non-genre labels such as years, artist names, list tags, or other user-uploaded filler, such as "2006" or "mid". To address this, I added a controlled filtering system that removes obvious junk tags while allowing specific genre names such as "hip-hop" or "alternative pop". To catch other genres that may slip through the cracks, I also implemented a list of common prefix/suffixes that appear in more niche genre names -- "gaze", "core", or "wave" to catch a genre such as "Darkwave" that may be missing from the original list.
+
+The enriched AOTY CSV is formatted to mimic the same column order as the original 2025 dataset:
+
+- Artist
+- Album
+- Year
+- Number of tracks
+- Runtime
+- Genre 1
+- Genre 2
+- Genre 3
+- Score
+
+Additional tracking columns are kept after those main modeling columns so the dataset remains readable while still preserving metadata about where the enriched values came from.
+
+The most recent enrichment pass produced strong metadata coverage, with most albums receiving track count and runtime information and a majority of albums receiving usable genre tags.
+
+### 9. Enriched AOTY Model Experiment
+
+After creating the enriched AOTY dataset, I trained a new model using the expanded feature set. This model used artist, format, release year, release decade, genre tags, number of tracks, and runtime to predict album scores.
+
+The enriched model beat the dummy baseline, but it did not outperform the earlier basic AOTY model. This suggests that the additional Last.fm-derived features may introduce noise, sparse categories, or inconsistent metadata that the current model does not yet handle well.
+
+This result is still useful because it shows that adding more features is not automatically an improvement. The next step is to run feature ablation experiments to identify which parts of the enriched dataset help prediction and which parts may hurt it.
+
 ## Current Status
 
-The project is currently in the taste-model evaluation and recommendation-planning stage.
+The project is currently in the expanded dataset evaluation stage.
 
 Completed so far:
 
 - Created the 2025 album listening dataset
-- Cleaned and structured the dataset
+- Cleaned and structured the original dataset
 - Set up the Python project workflow
 - Trained an initial CatBoost taste prediction model
 - Added text-based model error reports
@@ -82,8 +137,19 @@ Completed so far:
 - Adjusted score tier thresholds
 - Tested sample weighting
 - Reverted back to the original unweighted baseline model
+- Exported all-time AOTY ratings into a larger CSV dataset
+- Built an AOTY cleaning script
+- Removed non-album-level date-rated features from the AOTY data
+- Used Last.fm to enrich the AOTY dataset with genre tags
+- Added filtering logic to reduce noisy Last.fm tags
+- Used Last.fm album metadata to add runtime and track count information
+- Reformatted the enriched AOTY CSV to match the original 2025 dataset's column order
+- Trained a model on the enriched AOTY dataset
+- Compared the enriched AOTY model against the dummy baseline and earlier AOTY model
 
-The current model is being treated as a stable baseline before adding more features, comparing other models, and building the recommendation layer that will use predicted scores to rank unseen albums.
+The current finding is that the enriched AOTY model beats the dummy baseline but does not yet outperform the earlier basic AOTY model. This means the larger enriched dataset is promising, but the added features need more careful analysis before being treated as a clear improvement.
+
+The next step is to run ablation experiments to compare basic AOTY features, genre features, metadata features, and combined feature sets. This will help determine whether genre tags, runtime, track count, or other engineered features are actually improving prediction quality.
 
 ## Current Tech Stack
 
@@ -108,7 +174,15 @@ The current model is being treated as a stable baseline before adding more featu
 - [x] Analyze prediction errors by score range
 - [x] Adjust score tier thresholds
 - [x] Experiment with sample weighting
-- [x] Revert to stable unweighted baselineaot
+- [x] Revert to stable unweighted baseline
+- [x] Export all-time AOTY ratings
+- [x] Clean AOTY export into a modeling dataset
+- [x] Enrich AOTY data with Last.fm genre tags
+- [x] Enrich AOTY data with runtime and track count metadata
+- [x] Train enriched AOTY model
+- [ ] Experiment with Discogs API genre/style enrichment
+- [ ] Compare Last.fm genre tags against Discogs genre/style data
+- [ ] Run feature ablation tests on AOTY feature groups
 - [ ] Perform deeper exploratory data analysis
 - [ ] Engineer additional taste-profile features
 - [ ] Compare multiple model types
@@ -128,7 +202,10 @@ Future improvements may include:
 - Comparing CatBoost against other regression models
 - Testing more advanced recommendation logic
 - Creating a web interface where users can upload data and receive personalized album recommendations
-- Expanding the dataset beyond the original 365 albums
+- Continuing to refine the expanded AOTY dataset beyond the original 365 albums
+- Running ablation tests to compare basic AOTY features, genre features, metadata features, and combined features
+- Investigating whether Last.fm-derived genre tags and metadata improve or hurt model performance
+- Exploring stronger feature engineering around genre combinations, artist history, runtime, and track count
 
 ## Purpose
 
