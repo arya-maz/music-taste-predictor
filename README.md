@@ -108,7 +108,7 @@ The current model is being treated as a stable baseline before adding more featu
 - [x] Analyze prediction errors by score range
 - [x] Adjust score tier thresholds
 - [x] Experiment with sample weighting
-- [x] Revert to stable unweighted baseline
+- [x] Revert to stable unweighted baselineaot
 - [ ] Perform deeper exploratory data analysis
 - [ ] Engineer additional taste-profile features
 - [ ] Compare multiple model types
