@@ -7,3 +7,4 @@ data/processed/
 *.cbm
 *.pkl
 *.joblib
+.env
